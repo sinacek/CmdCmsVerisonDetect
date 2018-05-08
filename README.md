@@ -1,6 +1,14 @@
-Použití pro skautský server Lebeda - lebeda.skauting.cz
+# Použití
 
-# Wordpress
-`./wp.sh [cesta]` kde cesta je adresář, ze kterého se rekurzivně vyhledají a vypíšou instalace WordPressu
+Určeno pro skautský server Lebeda - lebeda.skauting.cz
 
+`[path]` je volitelný parametr pro  adresář, ze kterého se rekurzivně vyhledají a vypíšou všechny nalezené instalace. Při nezadání tohoto parametru se použije aktuální adresář
 
+## Wordpress
+`./wp.sh [path]`
+
+## Drupal
+`./drupal.sh [path]` 
+
+## Joomla
+`./joomla.sh [path]`
